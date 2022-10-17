@@ -1,0 +1,29 @@
+Key no React
+
+Por que única?
+
+3 momentos em que um componente é renderizado novamente no React.
+
+1. Quando o estado altera;
+2. Quando a propriedade altera;
+3. Quando um componente pai renderiza novamente;
+
+Por que não posso usar o índice do array?
+
+...js
+const posts = [1, 2, 5, 4, 3]
+// 0 - 1 - 2 - 3 - 4 (índice)
+...
+
+Imutabilidade
+
+As variáveis não sofrem mutação, nós criamos um novo valor (um novo espaço na memória)
+
+Podemos usar arrow functions dentro de chamadas de funções
+
+() => nomeFuncao(nomeVar + 1)
+
+O React não executa código duplicado devido as Clousures
+
+Sempre ao atualizar uma informação, e essa informação depender de seu valor anterior,
+devemos fazer a atualização usando o padrão de funções
